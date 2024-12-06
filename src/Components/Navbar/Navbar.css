@@ -1,0 +1,61 @@
+.navbar-brand img{
+    width: 10rem;
+    height: auto;
+}
+
+.menu-nav{
+    display: flex;
+    align-items: center;
+}
+
+.menu-nav .nav-item .program {
+    background-color: navy;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+
+.menu-nav .nav-item .top {
+    text-decoration: none;
+    color: black;
+    margin: 30px;
+}
+
+
+.menu-nav .uni :hover{
+    background-color: bisque;
+    padding: 0.55rem;
+    border-radius: 5px;
+}
+
+.menu-nav .expert{
+    border:  2px solid red;
+    border-radius: 5px;
+    background: linear-gradient(90deg, transparent, transparent) padding-box, /* Inner box */ linear-gradient(90deg, white, lightgrey) border-box;
+    color: black;
+    font-weight: bold;
+}
+
+.menu-nav .num{
+    border:  2px solid red;
+    border-radius: 5px;
+    background-color: rgba(241, 236, 236, 0.96);
+    position: relative;
+    text-align: center;
+
+}
+
+.menu-nav .num span{
+    top: -12px;
+    left: 32px;
+    position: absolute;
+    background-color: #EC1C24;
+    text-align: center;
+    padding: 1px 10px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}

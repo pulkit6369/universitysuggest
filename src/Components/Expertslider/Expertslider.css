@@ -1,0 +1,60 @@
+.teachers-section {
+    text-align: center;
+  }
+  
+  .teachers-section .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .swiper.my-tech {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .swiper-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .card-img {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .card .body {
+    padding: 15px;
+  }
+  
+  .btn-navi {
+    background-color: #EC1C24;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  .btn-navi:hover {
+    background-color: #c1141f;
+  }
+  

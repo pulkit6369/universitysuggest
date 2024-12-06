@@ -1,0 +1,259 @@
+/* Collegesection.css */
+/* Collegesection.css */
+
+/* Ensure buttons and nav links are clickable */
+.nav-item .nav-link {
+    position: relative;
+    z-index: 10; /* Ensures the buttons are above the animated circles */
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: #6c757d;
+    font-size: 1.1rem;
+    transition: all 0.3s;
+  }
+  
+  .nav-item .nav-link.active {
+    background-color: #d9534f;
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .nav-item .nav-link:hover {
+    background-color: #d9534f;
+    color: #fff;
+  }
+  
+  /* Circle Elements Styling */
+  .circles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; /* Ensuring the circles stay behind other elements */
+    overflow: hidden;
+  }
+  
+  .circles li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(217, 83, 79, 0.3);
+    animation: move 25s infinite;
+    bottom: -150px;
+    border-radius: 50%;
+  }
+  
+  /* Adjust z-index for .circles if necessary */
+  .circles li {
+    z-index: -1; /* Ensure circles stay in the background */
+  }
+  
+  /* Adjustments for other sections and content */
+  .university_section {
+    position: relative;
+    padding: 50px 0;
+    background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+    overflow: hidden;
+  }
+  
+  .university_section .collegesathiExpertise {
+    margin-top: 20px;
+  }
+  
+  /* Rest of the styles remain the same */
+  
+.university_section {
+    position: relative;
+    padding: 50px 0;
+    background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+    overflow: hidden;
+  }
+  
+  .university_section .headingCard {
+    margin-bottom: 30px;
+  }
+  
+  .university_section .heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .university_section .heading strong {
+    color: #d9534f; /* Highlight Collegesathi */
+  }
+  
+  .university_section .paragraphline {
+    font-size: 1.2rem;
+    color: #6c757d;
+  }
+  
+  .university_section .navbarPill {
+    justify-content: center;
+    margin: 30px 0;
+  }
+  
+  .university_section .nav-item .nav-link {
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: #6c757d;
+    font-size: 1.1rem;
+    transition: all 0.3s;
+  }
+  
+  .university_section .nav-item .nav-link.active {
+    background-color: #d9534f;
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .university_section .nav-item .nav-link:hover {
+    background-color: #d9534f;
+    color: #fff;
+  }
+  
+  .university_section .collegesathiExpertise {
+    margin-top: 20px;
+  }
+  
+  .university_section .imagethumbBox img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .university_section .boxshadow {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .university_section h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .university_section .checkListing {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .university_section .checkListing li {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 25px;
+  }
+  
+  .university_section .checkListing li:before {
+    content: "✔";
+    color: #d9534f;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .circles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    overflow: hidden;
+  }
+  
+  .circles li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(217, 83, 79, 0.3);
+    animation: move 25s infinite;
+    bottom: -150px;
+    border-radius: 50%;
+  }
+  
+  .circles li:nth-child(1) {
+    left: 10%;
+    animation-delay: 0s;
+  }
+  
+  .circles li:nth-child(2) {
+    left: 20%;
+    width: 30px;
+    height: 30px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+  }
+  
+  .circles li:nth-child(3) {
+    left: 25%;
+    animation-delay: 4s;
+  }
+  
+  .circles li:nth-child(4) {
+    left: 40%;
+    width: 50px;
+    height: 50px;
+    animation-duration: 18s;
+    animation-delay: 0s;
+  }
+  
+  .circles li:nth-child(5) {
+    left: 70%;
+  }
+  
+  .circles li:nth-child(6) {
+    left: 80%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 3s;
+  }
+  
+  .circles li:nth-child(7) {
+    left: 90%;
+    animation-delay: 7s;
+  }
+  
+  .circles li:nth-child(8) {
+    left: 95%;
+  }
+  
+  .circles li:nth-child(9) {
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 2s;
+  }
+  
+  .circles li:nth-child(10) {
+    left: 60%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 6s;
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translateY(0) rotate(0deg);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-1000px) rotate(720deg);
+      opacity: 0;
+    }
+  }
+  
