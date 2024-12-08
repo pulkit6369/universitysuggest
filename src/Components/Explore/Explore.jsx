@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react'; 
 import './Explore.css';
 
 const ProgramTabs = () => {
@@ -21,7 +21,7 @@ const ProgramTabs = () => {
             Explore Our Exclusive Programs
           </h2>
           <p className="text-black fs-5 mt-3">
-            Dive into a diverse range of courses tailored to elevate your career. Whether you're
+            Dive into a diverse range of courses tailored to elevate your career. Whether you are
             starting fresh or aiming to upskill, we have the perfect program for you.
           </p>
         </div>
