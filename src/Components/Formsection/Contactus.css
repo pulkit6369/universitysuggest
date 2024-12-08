@@ -1,0 +1,138 @@
+/* Main Container */
+.contact-us {
+    padding: 2rem 0;
+}
+
+.container {
+    width: 100%;
+}
+
+/* Left Side Section */
+.left-side h2 {
+    font-size: 2rem;
+    color: #8b0000; /* Red theme color */
+    font-weight: bold;
+}
+
+.left-side p {
+    color: #333;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* Cards List Section */
+.cards-list .card {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.cards-list .card a {
+    display: flex;
+    align-items: center;
+    color: inherit;
+    text-decoration: none;
+}
+
+.cards-list .card img {
+    width: 30px;
+    height: 30px;
+}
+
+.cards-list .card .content {
+    margin-right: 10px;
+}
+
+.card .content p {
+    font-weight: bold;
+}
+
+.card .content small {
+    color: black;
+}
+
+/* Contact Card */
+.contact-card {
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px; /* Added padding for better spacing */
+}
+
+/* Form Control */
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    width: 100%; /* Ensures full width */
+}
+
+textarea.form-control {
+    resize: vertical;
+    width: 100%; /* Ensures textarea takes full width */
+}
+
+/* Submit Button */
+.btn-red {
+    background-color: #8b0000; /* Red button */
+    color: white;
+    border: none;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    width: 100%; /* Makes submit button take full width */
+}
+
+.btn-red:hover {
+    background-color: #7a0000;
+}
+
+/* OTP Action Buttons */
+.otpActionBtn button {
+    background-color: #8b0000; /* Red button for OTP actions */
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.otpActionBtn button:hover {
+    background-color: #7a0000;
+}
+
+.btnVerifySuccess {
+    background-color: green;
+}
+
+.btnResend {
+    background-color: #ff9e00;
+}
+
+/* Error Message */
+.error {
+    color: red;
+    font-size: 0.875rem;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .left-side {
+        text-align: center;
+    }
+
+    .left-side .cards-list .card {
+        margin-bottom: 15px;
+    }
+
+    .contact-card {
+        margin-top: 20px;
+    }
+}
+ #contactForm {
+    width:450px
+ }
