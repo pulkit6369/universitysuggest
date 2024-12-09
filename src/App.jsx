@@ -11,6 +11,7 @@ import Expertslider  from './Components/Expertslider/Expertslider'
 import FaqSection from './Components/faq-section/faq'
 import ContactUs from './Components/Formsection/Contactus'
 import UniversityComparison from './Components/Comparison/Universitycom';
+import Cardsection from './Components/Cardsection/Card'
 
 function App() {
 
@@ -18,6 +19,8 @@ function App() {
     <>
       <Navbar />
       <Banner_wrapper />
+      <Cardsection />
+
       <Explore />
       <UniversityComparison />
       <LeadingUniversities />
