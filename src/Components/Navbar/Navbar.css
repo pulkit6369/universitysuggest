@@ -1,7 +1,111 @@
+/* Navbar.css */
+.navbar {
+    background-color: #f8f9fa; /* Light background for better contrast */
+    padding: 10px 20px; /* Adjusted padding for better spacing */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for an elevated look */
+}
+
+.navbar-brand img {
+    height: 40px; /* Ensure the logo is appropriately sized */
+    width: auto;
+}
+
+.navbar-toggler {
+    font-size: 1.2rem; /* Adjusted size for better visibility */
+}
+
+.navbar-nav .nav-item {
+    margin: 0 10px; /* Add spacing between nav items */
+}
+
+.nav-link {
+    color: #212529; /* Neutral text color */
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #dc3545; /* Highlight on hover */
+}
+
+.menu-nav .dropdown-toggle {
+    padding: 5px 15px; /* Adjust padding for a more compact look */
+    border-radius: 4px; /* Rounded corners */
+    color: white; /* Text color for dropdown */
+    background-color: #007bff; /* Blue background for dropdown toggle */
+    font-size: 0.9rem; /* Smaller font size */
+}
+
+.menu-nav .dropdown-toggle:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.btn {
+    font-size: 0.9rem; /* Smaller button text size */
+    padding: 8px 16px; /* Reduced padding for a smaller button */
+    border-radius: 5px; /* Slightly rounded corners */
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #dc3545; /* Dark red background on hover */
+    color: white;
+}
+
+.navbar-collapse {
+    justify-content: space-between;
+}
+
+.nav-item.helpline .fw-bold {
+    background-color: #ffc107; /* Yellow pill background */
+    color: #212529; /* Dark text for contrast */
+    padding: 5px 10px;
+    margin-right: 5px;
+    font-size: 0.9rem;
+}
+
+
+
 .navbar-brand img{
     width: 10rem;
     height: auto;
 }
+.navbar {
+    background-color: #f8f9fa;
+}
+
+.navbar .dropdown-menu {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.navbar .dropdown-menu .dropdown-item {
+    color: #000;
+    padding: 10px 15px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar .dropdown-menu .dropdown-item:hover {
+    background-color: #f1f1f1;
+}
+
+.navbar .program:hover .dropdown-menu {
+    display: block;
+    animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 
 .menu-nav{
     display: flex;

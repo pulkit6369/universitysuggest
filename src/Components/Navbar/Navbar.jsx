@@ -11,7 +11,7 @@ function Navbar() {
                         <img src="./images/Logo/log.png" alt="Logo" className='img-fluid' />
                     </Link>
                     <button
-                        className="navbar-toggler shadow-none border-0"
+                        className="navbar-toggler shadow-none"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent"
@@ -22,38 +22,33 @@ function Navbar() {
                         <i className="fas fa-stream"></i>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav ms-auto mb-4 mb-lg-0 menu-nav">
-                            <li className="nav-item dropdown my-sm-2">
-                                <NavLink
-                                    className="nav-link dropdown-toggle mx-4 fs-5 program text-light px-5"
-                                    to="#"
-                                    role="button"
-                                    data-bs-toggle="dropdown"
-                                    aria-expanded="false"
-                                >
+                        <ul className="navbar-nav ms-auto mb-4 mb-lg-0">
+                            <li className="nav-item">
+                                <NavLink className="nav-link" to="/find-programs">
                                     Find Programs
                                 </NavLink>
                                 <Submenuu />
                             </li>
-                            <li className="nav-item uni my-sm-2">
-                                <NavLink className="top mx-4 fs-5 fw-bold px-3" to="/top-universities">
+                            <li className="nav-item">
+                                <NavLink className="nav-link" to="/top-universities">
                                     Top Universities
                                 </NavLink>
                             </li>
-                            <li className="nav-item my-sm-2">
-                                <NavLink className="nav-link fs-5 mx-4 expert px-3" to="/expert-advice">
+                            <li className="nav-item">
+                                <NavLink className="nav-link" to="/expert-advice">
                                     ✅ Expert Advice
                                 </NavLink>
                             </li>
-                            <li className="nav-item my-sm-2 fs-5">
-                                <NavLink className="nav-link num mx-4 px-3" to="/">
-                                    <span className='fw-bold rounded-pill d-flex'>HelpLine</span>
-                                    9785-800-008
+                            <li className="nav-item">
+                                <NavLink className="nav-link" to="/">
+                                    HelpLine: 9785-800-008
                                 </NavLink>
                             </li>
                         </ul>
-                        <form className="d-flex ps-5">
-                            <button className="btn btn-outline-danger fs-5 px-3 py-2" type="submit">Search</button>
+                        <form className="d-flex ps-3">
+                            <button className="btn btn-outline-danger" type="submit">
+                                Search
+                            </button>
                         </form>
                     </div>
                 </div>
