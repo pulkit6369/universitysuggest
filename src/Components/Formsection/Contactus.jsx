@@ -27,7 +27,7 @@ const ContactUs = () => {
                 <div className="card d-flex flex-row align-items-center border-0 py-3 px-3 mb-3">
                   <a href="https://wa.me/+919785800008?text=Hello%20there!" target="_blank" rel="noopener noreferrer" className="d-flex align-items-center w-100 text-decoration-none">
                     <div className="me-3">
-                      <img src="/assets/icons/redwp.png" alt="WhatsApp Icon" width="40" />
+                      <img src="https://www.collegesathi.com/assets/icons/redwp.png" alt="WhatsApp Icon" width="20" />
                     </div>
                     <div>
                       <p className="mb-0 fw-bold text-dark">WhatsApp Number</p>
@@ -38,7 +38,7 @@ const ContactUs = () => {
                 <div className="card d-flex flex-row align-items-center border-0 py-3 px-3">
                   <a href="mailto:support@universitysuggest.com" className="d-flex align-items-center w-100 text-decoration-none">
                     <div className="me-3">
-                      <img src="/assets/icons/redmail.png" alt="Email Icon" width="40" />
+                      <img src="https://www.collegesathi.com/assets/icons/redmail.png" alt="Email Icon" width="20" />
                     </div>
                     <div>
                       <p className="mb-0 fw-bold text-dark">Send Email</p>

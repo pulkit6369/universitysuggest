@@ -1,0 +1,61 @@
+
+
+
+
+.university-comparison {
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.university-comparison h2 {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.comparison-selectors {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    
+}
+
+.comparison-selectors div {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.comparison-selectors select,
+.comparison-selectors button {
+    width: 55%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.comparison-table th, .comparison-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.comparison-table th {
+    background: #ff1313;
+    color: #fff;
+}
+
+.comparison-table tr:nth-child(even) {
+    background: #f2f2f2;
+}
+

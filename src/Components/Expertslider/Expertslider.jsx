@@ -6,28 +6,28 @@ const Expertr = [
     name: 'Ms. Keerti Khandelwal',
     role: 'Sr. Mentor',
     expertise: 'MBA, 10+ Years of Expertise',
-    image: 'https://www.universitysuggest.com/uploads/expert/1729666531-expert-image.png',
+    image: 'https://www.collegesathi.com/uploads/expert/1729666582-expert-image.png',
     consultLink: 'https://www.universitysuggest.com/survey/free-counselling/sarthak-garg%20'
   },
   {
     name: 'Mr. Chirag Nagpal',
     role: 'Sr. Mentor',
     expertise: 'B Tech, 9+ Years of Expertise',
-    image: 'https://www.universitysuggest.com/uploads/expert/1729666542-expert-image.png',
+    image: 'https://www.collegesathi.com/uploads/expert/1729666645-expert-image.png',
     consultLink: 'https://www.universitysuggest.com/survey/free-counselling/raghvendra-singh'
   },
   {
     name: 'Dr. Puja Bora',
     role: 'Sr. Learning Advisor',
     expertise: 'BDS, 6+ Years of Expertise',
-    image: 'https://www.universitysuggest.com/uploads/expert/1729666555-expert-image.png',
+    image: 'https://www.collegesathi.com/uploads/expert/1729666566-expert-image.png',
     consultLink: 'https://www.universitysuggest.com/survey/free-counselling/dr-smith'
   },
   {
     name: 'Ms. Chetna Sharma',
     role: 'Sr. Learning Advisor',
     expertise: 'PGDM, 5+ Years of Expertise',
-    image: 'https://www.universitysuggest.com/uploads/expert/1729666566-expert-image.png',
+    image: 'https://www.collegesathi.com/uploads/expert/1729666595-expert-image.png',
     consultLink: 'https://www.universitysuggest.com/survey/free-counselling/ms-chetna-sharma'
   },
  

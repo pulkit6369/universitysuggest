@@ -10,7 +10,7 @@ import Collegesection from './Components/CollegeSection/Collegesection'
 import Expertslider  from './Components/Expertslider/Expertslider'
 import FaqSection from './Components/faq-section/faq'
 import ContactUs from './Components/Formsection/Contactus'
-
+import UniversityComparison from './Components/Comparison/Universitycom';
 
 function App() {
 
@@ -19,6 +19,7 @@ function App() {
       <Navbar />
       <Banner_wrapper />
       <Explore />
+      <UniversityComparison />
       <LeadingUniversities />
       <Collegesection />
       <Outlet />

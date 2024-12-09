@@ -7,11 +7,11 @@ import "slick-carousel/slick/slick-theme.css";
 const LeadingUniversities = () => {
     // Initialize universities state
     const [universities, setUniversities] = useState([
-        { name: "Amity University Online", link: "https://www.collegesathi.com/university/amity-university-online", img: "https://via.placeholder.com/200x100" },
-        { name: "NMIMS University Online", link: "https://www.collegesathi.com/university/nmims-online", img: "https://via.placeholder.com/200x100" },
-        { name: "Manipal University Online", link: "https://www.collegesathi.com/university/manipal-university-online", img: "https://via.placeholder.com/200x100" },
-        { name: "Chandigarh University Online", link: "https://www.collegesathi.com/university/chandigarh-university", img: "https://via.placeholder.com/200x100" },
-        { name: "Sharda University Online", link: "https://www.collegesathi.com/university/sharda-university", img: "https://via.placeholder.com/200x100" },
+        { name: "Amity University Online", link: "https://www.collegesathi.com/university/amity-university-online", img: "https://www.collegesathi.com/assets/unis/unilogoamity.png" },
+        { name: "NMIMS University Online", link: "https://www.collegesathi.com/university/nmims-online", img: "https://www.collegesathi.com/assets/unis/unilogoNMIMS.png" },
+        { name: "Manipal University Online", link: "https://www.collegesathi.com/university/manipal-university-online", img: "https://www.collegesathi.com/assets/unis/unilogomanipal.png" },
+        { name: "Chandigarh University Online", link: "https://www.collegesathi.com/university/chandigarh-university", img: "https://www.collegesathi.com/assets/unis/unilogoCU.png" },
+        { name: "Sharda University Online", link: "https://www.collegesathi.com/university/sharda-university", img: "https://www.collegesathi.com/assets/unis/unilogoSHARDA.png" },
     ]);
 
     // Simulate data fetching with useEffect
@@ -20,7 +20,7 @@ const LeadingUniversities = () => {
         setTimeout(() => {
             setUniversities((prev) => [
                 ...prev,
-                { name: "New University Online", link: "https://www.new-university.com", img: "https://via.placeholder.com/200x100" }
+                { name: "", link: "", img: "" }
             ]);
         }, 2000);
     }, []);
