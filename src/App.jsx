@@ -26,7 +26,7 @@ function App() {
       <Expertslider />
       <FaqSection />
       <ContactUs />
-      <h1>hii this is monty </h1>
+      
     </>
   )
 }
