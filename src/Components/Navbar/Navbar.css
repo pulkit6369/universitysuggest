@@ -1,68 +1,57 @@
+
 /* Navbar.css */
 .navbar {
-    background-color: #f8f9fa; /* Light background for better contrast */
-    padding: 10px 20px; /* Adjusted padding for better spacing */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for an elevated look */
+    background-color: #f8f9fa; /* Light background */
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-brand img {
-    height: 40px; /* Ensure the logo is appropriately sized */
+    height: 40px;
     width: auto;
 }
 
 .navbar-toggler {
-    font-size: 1.2rem; /* Adjusted size for better visibility */
+    font-size: 1.2rem;
+    border: none;
 }
 
-.navbar-nav .nav-item {
-    margin: 0 10px; /* Add spacing between nav items */
+.navbar-nav {
+    display: flex;
+    justify-content: space-between; /* Align items across full width */
+    width: 100%; /* Take full width of the navbar */
+}
+
+.nav-item {
+    flex: 1; /* Evenly distribute the items */
+    text-align: center; /* Center-align the nav buttons */
 }
 
 .nav-link {
-    color: #212529; /* Neutral text color */
-    transition: color 0.3s ease;
+    color: #212529;
+    font-size: 0.9rem; /* Smaller font size */
+    padding: 5px 10px; /* Reduced padding for compact buttons */
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease;
 }
 
 .nav-link:hover {
-    color: #dc3545; /* Highlight on hover */
-}
-
-.menu-nav .dropdown-toggle {
-    padding: 5px 15px; /* Adjust padding for a more compact look */
-    border-radius: 4px; /* Rounded corners */
-    color: white; /* Text color for dropdown */
-    background-color: #007bff; /* Blue background for dropdown toggle */
-    font-size: 0.9rem; /* Smaller font size */
-}
-
-.menu-nav .dropdown-toggle:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #dc3545; /* Highlight on hover */
+    color: #fff;
+    border-radius: 4px;
 }
 
 .btn {
-    font-size: 0.9rem; /* Smaller button text size */
-    padding: 8px 16px; /* Reduced padding for a smaller button */
-    border-radius: 5px; /* Slightly rounded corners */
+    font-size: 0.9rem;
+    padding: 6px 12px; /* Smaller padding for the button */
+    border-radius: 4px;
     transition: all 0.3s ease-in-out;
 }
 
 .btn:hover {
-    background-color: #dc3545; /* Dark red background on hover */
+    background-color: #dc3545;
     color: white;
 }
-
-.navbar-collapse {
-    justify-content: space-between;
-}
-
-.nav-item.helpline .fw-bold {
-    background-color: #ffc107; /* Yellow pill background */
-    color: #212529; /* Dark text for contrast */
-    padding: 5px 10px;
-    margin-right: 5px;
-    font-size: 0.9rem;
-}
-
 
 
 .navbar-brand img{

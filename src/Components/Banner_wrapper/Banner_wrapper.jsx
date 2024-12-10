@@ -12,6 +12,7 @@ function BannerWrapper() {
                         className="d-block w-100"
                         alt="College Template"
                         style={{ width: '350px', height: '350px' }}
+                     
                     />
                 </div>
                 <div className="carousel-item" data-bs-interval="3000">
