@@ -1,0 +1,32 @@
+/* Hide the default arrow */
+.accordion-button::after {
+    content: ''; /* Remove any previous content */
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #ff0000; /* Create a downward pointing arrow */
+    margin-left: auto; /* Push it to the right */
+    transition: transform 0.3s ease; /* Smooth transition for the rotation */
+}
+
+/* Rotate the arrow when the accordion item is expanded (active) */
+.accordion-button.active::after {
+    transform: rotate(360deg); /* Rotate the arrow to point up */
+}
+
+/* Optional: Customize the accordion button for better appearance */
+.accordion-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align the text to the left */
+    position: relative; /* Ensure the arrow is positioned correctly */
+    padding-right: 30px; /* Space for the arrow */
+}
+
+/* Optional: Style the active button */
+.accordion-button.active {
+    background-color: #f8f9fa; /* Light background when active */
+    border-color: #dee2e6; /* Adjust border color if necessary */
+}

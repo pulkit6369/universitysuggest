@@ -1,61 +1,72 @@
+/* Wrapper for the background image */
+.comparison-wrapper {
+  background-image: url('https://png.pngtree.com/back_origin_pic/03/91/83/c822f6dcab4afb9c20060a02fee2effa.jpg'); /* Replace with your image URL */
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the background image */
+  padding: 40px 0; /* Adds some padding to give the inner box space */
+}
 
-
-
-
+/* The university comparison box */
 .university-comparison {
-    padding: 20px;
-    background: #f9f9f9;
-    border-radius: 10px;
-    max-width: 1000px;
-    margin: 40px auto;
+  padding: 20px;
+  background: #f9f9f9; /* Solid background for the content box */
+  background-image: none; /* Ensure no image is used in the box itself */
+  border-radius: 10px;
+  max-width: 1000px;
+  margin: 0 auto; /* Centers the box horizontally */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
 }
 
 .university-comparison h2 {
-    text-align: center;
-    margin: 20px auto;
+  text-align: center;
+  margin: 20px auto;
 }
 
 .comparison-selectors {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px;
-    
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
 }
 
 .comparison-selectors div {
-    flex: 1;
-    margin: 0 10px;
+  flex: 1;
+  margin: 0 10px;
 }
 
 .comparison-selectors select,
 .comparison-selectors button {
-    width: 55%;
-    padding: 10px;
-    margin-top: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background: #fff;
-    cursor: pointer;
+  width: 55%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #fff;
+  cursor: pointer;
 }
 
 .comparison-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
 }
 
 .comparison-table th, .comparison-table td {
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: left;
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
 }
 
 .comparison-table th {
-    background: #ff1313;
-    color: #fff;
+  background: #ff1313;
+  color: #fff;
 }
 
 .comparison-table tr:nth-child(even) {
-    background: #f2f2f2;
+  background: #f2f2f2;
 }
 
+.university-comparison h2 {
+  text-align: center;
+  margin: 20px auto;
+  color: red; /* Set the text color to red */
+}
