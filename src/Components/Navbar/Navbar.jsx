@@ -1,6 +1,6 @@
 import { Link, NavLink } from 'react-router-dom';
 import './Navbar.css';
-import Submenuu from './Submenu';
+
 
 function Navbar() {
     return (
@@ -27,10 +27,10 @@ function Navbar() {
                                 <NavLink className="nav-link" to="/find-programs">
                                     Find Programs
                                 </NavLink>
-                                <Submenuu />
+                              
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="/top-universities">
+                                <NavLink className="nav-link" to="/topuniversities">
                                     Top Universities
                                 </NavLink>
                             </li>

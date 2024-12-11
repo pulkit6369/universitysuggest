@@ -1,19 +1,17 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { fetchUniversities } from "./universitiesAPI";
 import "./Universitycom.css";
 
-const universities = [
-  { id: 1, name: "University A", location: "City A", rank: 5, courses: ["Course 1", "Course 2"], fees: "$10,000/year", facilities: "Library, Sports Complex", alumni: "John Doe" },
-  { id: 2, name: "University B", location: "City B", rank: 10, courses: ["Course 3", "Course 4"], fees: "$15,000/year", facilities: "Gym, Cafeteria", alumni: "Jane Smith" },
-  { id: 3, name: "University C", location: "City C", rank: 2, courses: ["Course 5", "Course 6"], fees: "$20,000/year", facilities: "Hostel, Research Labs", alumni: "Alice Johnson" },
-  { id: 4, name: "University D", location: "City D", rank: 8, courses: ["Course 7", "Course 8"], fees: "$12,000/year", facilities: "Sports Grounds, Auditorium", alumni: "Bob Brown" },
-  { id: 5, name: "University E", location: "City E", rank: 1, courses: ["Course 9", "Course 10"], fees: "$25,000/year", facilities: "Advanced Labs, Art Studio", alumni: "Charlie Davis" },
-  { id: 6, name: "University F", location: "City F", rank: 15, courses: ["Course 11", "Course 12"], fees: "$8,000/year", facilities: "Community Center, Open Library", alumni: "Diana Lee" },
-];
-
 function UniversityComparison() {
+  const [universities, setUniversities] = useState([]);
   const [selectedUni1, setSelectedUni1] = useState("");
   const [selectedUni2, setSelectedUni2] = useState("");
   const [comparisonData, setComparisonData] = useState(null);
+
+  useEffect(() => {
+    // Fetch universities from the API file
+    fetchUniversities().then((data) => setUniversities(data));
+  }, []);
 
   const handleCompare = () => {
     const uni1 = universities.find((uni) => uni.name === selectedUni1);
@@ -26,7 +24,7 @@ function UniversityComparison() {
   return (
     <div className="comparison-wrapper">
       <div className="university-comparison">
-        <h2> Compare Universities</h2>
+        <h2>Compare Universities</h2>
         <div className="comparison-selectors">
           <div>
             <label>Select University 1:</label>
