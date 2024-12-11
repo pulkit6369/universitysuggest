@@ -45,7 +45,7 @@ h2 {
 .filters-sidebar .form-range {
     width: 100%;
     margin-bottom: 10px;
-    -webkit-appearance: none;
+    
     background: #f1f1f1;
     height: 6px;
     border-radius: 5px;
