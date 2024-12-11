@@ -19,7 +19,7 @@ import Universitiesspage from './Components/UniversitiesPaage/Universitiespage'
 function App() {
   return (
     <>
-       <Universitiesspage />
+     
       <Navbar />
       <Banner_wrapper />
       <Cardsection />
@@ -32,7 +32,7 @@ function App() {
       <Routes>
       
      
-        <Route path="/topuniversities" element={} /> 
+        <Route path="/topuniversities" element={  <Universitiesspage />} /> 
 
       </Routes>
       
