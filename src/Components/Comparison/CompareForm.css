@@ -36,4 +36,9 @@
   .close-modal:hover {
     background-color: darkred;
   }
+  /* styles.css */
+.fs-3{
+  color: blue; /* Replace with your desired color */
+}
+
   

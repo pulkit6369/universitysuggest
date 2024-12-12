@@ -8,7 +8,7 @@ function CompareForm({state,updateState}) {
             <div className="container" >
                 <div className="row">
                     <div className="col-6 offset-3 p-5 bg-black4 shadow">
-                        <h1 className="text-white p-3  fw-bold text-center fs-3">Enquiry now </h1>
+                        <h1 className="text-black p-3  fw-bold text-center fs-3"><b>Enquiry now</b></h1>
                         <form action="">
                             <div className="row">
                                 <div className="col-6">
