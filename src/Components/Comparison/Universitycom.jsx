@@ -1,14 +1,12 @@
 import { useState, useEffect } from "react";
 import { fetchUniversities } from "./universitiesAPI";
 import "./Universitycom.css";
-import CompareForm from "./CompareForm"; // Import CompareForm component
 
 function UniversityComparison() {
   const [universities, setUniversities] = useState([]);
   const [selectedUni1, setSelectedUni1] = useState("");
   const [selectedUni2, setSelectedUni2] = useState("");
   const [comparisonData, setComparisonData] = useState(null);
-  const [showCompareForm, setShowCompareForm] = useState(false); // State for controlling popup visibility
 
   useEffect(() => {
     // Fetch universities from the API file
@@ -20,14 +18,11 @@ function UniversityComparison() {
     const uni2 = universities.find((uni) => uni.name === selectedUni2);
     if (uni1 && uni2) {
       setComparisonData([uni1, uni2]);
-      setShowCompareForm(true); // Show CompareForm modal
+    
     }
   };
 
-  // Close the CompareForm modal
-  const handleCloseModal = () => {
-    setShowCompareForm(false);
-  };
+ 
 
   return (
     <div className="comparison-wrapper">
@@ -67,18 +62,10 @@ function UniversityComparison() {
           </button>
         </div>
 
-        {/* Modal: CompareForm */}
-        {showCompareForm && (
-          <div className="modal-overlay">
-            <div className="modal-content">
-              <CompareForm comparisonData={comparisonData} state={showCompareForm} updateState={handleCloseModal} />
-            
-            </div>
-          </div>
-        )}
+       
 
         {/* Display comparison data if available */}
-        {comparisonData && !showCompareForm && (
+        {comparisonData  && (
           <table className="comparison-table">
             <thead>
               <tr>

@@ -35,13 +35,13 @@
   flex: 1;
   margin: 0 10px;
 }
-//change in select university button 
+
 .comparison-selectors select{
   width: 68%;
   padding: 10px;
   margin-top: 10px;
   border: 1px solid #ccc;
-  border-radius: 20px;
+  border-radius: 5px;
   background: #fff;
   cursor: pointer;
 }
@@ -51,7 +51,7 @@
   padding: 10px;
   margin-top: 10px;
   border: 1px solid #ccc;
-  border-radius: 20px;
+  border-radius: 10px;
   background: #fff;
   cursor: pointer;
 }
