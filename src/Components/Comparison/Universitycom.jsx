@@ -1,12 +1,16 @@
 import { useState, useEffect } from "react";
 import { fetchUniversities } from "./universitiesAPI";
+import LoginForm from "../Authentication/Login"// login import
 import "./Universitycom.css";
+
+
 
 function UniversityComparison() {
   const [universities, setUniversities] = useState([]);
   const [selectedUni1, setSelectedUni1] = useState("");
   const [selectedUni2, setSelectedUni2] = useState("");
   const [comparisonData, setComparisonData] = useState(null);
+  const [showLoginForm, setShowLoginForm] = useState(false); // first login popup is unvisible
 
   useEffect(() => {
     // Fetch universities from the API file
@@ -14,15 +18,20 @@ function UniversityComparison() {
   }, []);
 
   const handleCompare = () => {
+    
     const uni1 = universities.find((uni) => uni.name === selectedUni1);
     const uni2 = universities.find((uni) => uni.name === selectedUni2);
     if (uni1 && uni2) {
       setComparisonData([uni1, uni2]);
-    
+      setShowLoginForm(true)//Show LoginForm model
+
     }
   };
-
  
+
+  const handleCloseModel = () => {
+    setShowLoginForm(false)
+  }
 
   return (
     <div className="comparison-wrapper">
@@ -62,10 +71,25 @@ function UniversityComparison() {
           </button>
         </div>
 
-       
+        
+        {comparisonData && (
+          <>
+            {showLoginForm && (
+              <div className="modal-overlay">
+                <div className="modal-content">
+                  <LoginForm
+                    comparisonData={comparisonData}
+                    state={showLoginForm}
+                    updateState={handleCloseModel}
+                  />
+                </div>
+              </div>
+            )}
+          </>
+        )}
 
         {/* Display comparison data if available */}
-        {comparisonData  && (
+        {comparisonData && !showLoginForm && (
           <table className="comparison-table">
             <thead>
               <tr>

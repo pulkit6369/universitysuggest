@@ -15,6 +15,9 @@ import ContactUs from './Components/Formsection/Contactus';
 import UniversityComparison from './Components/Comparison/Universitycom';
 import Cardsection from './Components/Cardsection/Card';
 import Universitiesspage from './Components/UniversitiesPaage/Universitiespage'
+// login and signup import
+import Login from './Components/Authentication/Login';
+import Register from './Components/Authentication/Register';
 
 function App() {
   return (
@@ -31,9 +34,13 @@ function App() {
     
       <Routes>
       
-     
+   
         <Route path="/topuniversities" element={  <Universitiesspage />} /> 
 
+        {/* Login and register route */}
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+      
       </Routes>
       
       <Expertslider />
