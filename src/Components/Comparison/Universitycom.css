@@ -51,7 +51,7 @@
   padding: 10px;
   margin-top: 10px;
   border: 1px solid #ccc;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   background: #fff;
   cursor: pointer;
 }
@@ -96,20 +96,21 @@
 } */ 
 /* More specific CSS selector for the compare button */
 .university-comparison .compare-button {
-  border: 2px solid red;
-  box-shadow: 2px 2px 8px rgba(255, 0, 0, 1); /* Shadow effect */
+  border: 1px solid red;
+  /* box-shadow: 2px 2px 8px rgba(255, 0, 0, 1); Shadow effect */
   font-size: 25px;
   background: #fff; /* Initial background color */
   color: red; /* Initial text color */
   cursor: pointer;
-  transition: background-color 0.3s, color 0.3s; /* Smooth transition for background and text color */
+  transition: background-color 0.5s, color 0.5s; /* Smooth transition for background and text color */
 }
 
 /* Hover effect for the compare button */
 .university-comparison .compare-button:hover {
+  border: none;
   background-color: red; /* Change background color to red on hover */
   color: white; /* Change text color to white on hover */
-  box-shadow: 2px 2px 12px rgba(255, 0, 0, 1); /* Optional: Increase shadow on hover */
+  /* box-shadow: 2px 2px 12px rgba(255, 0, 0, 1); Optional: Increase shadow on hover */
 }
 
 

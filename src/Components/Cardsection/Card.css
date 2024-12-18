@@ -1,72 +1,76 @@
 /* General styling for the section */
 .top-cards {
-    padding: 40px 0;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .card-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-  }
-  
-  .top-card {
-    background-color: #f0f0f0;
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    display: flex;
-    flex-direction: column;  /* Stack children vertically */
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border: 2px solid #e63946; /* Red border */
-    transition: transform 0.3s ease;
-    padding: 10px;  /* Add some padding to the card */
-  }
-  
-  .top-card:hover {
-    transform: scale(1.05);
-  }
-  
-  /* Text Styling */
-  .number {
-    font-size: 1.25rem;
-    font-weight: 600;
-    margin: 0;
-    padding-bottom: 5px; /* Space between the number and the label */
-  }
-  
-  .label {
-    font-size: 0.875rem;
-    color: #4a63e1; /* Blue color */
-    margin: 0;
-  }
-  
-  /* .star-icon {
+  padding: 40px 0;
+}
+.top-card h5 {
+  font-weight: bold;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.top-card {
+  background-color: #f0f0f0;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 2px solid #e63946; /* Red border */
+  transition: transform 0.4s ease;
+  padding: 10px; /* Add some padding to the card */
+  will-change: transform; /* Inform browser about upcoming changes */
+  backface-visibility: hidden; /* Ensure smoothness and clarity */
+}
+
+.top-card:hover {
+  transform: scale(1.05);
+}
+
+/* Text Styling */
+.number {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+  padding-bottom: 5px; /* Space between the number and the label */
+}
+
+.label {
+  font-size: 0.875rem;
+  color: #4a63e1; /* Blue color */
+  margin: 0;
+}
+
+/* .star-icon {
     width: 16px;
     height: 16px;
     margin-left: 5px;
     
   } */
-  .star-icon {
-    width: 16px;
-    height: 16px;
-    margin-left: 5px;
-    vertical-align: middle;
+.star-icon {
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+/* Optional: Responsive design */
+@media (max-width: 768px) {
+  .card-container {
+    flex-wrap: wrap;
+    justify-content: center;
   }
-  
-  
-  /* Optional: Responsive design */
-  @media (max-width: 768px) {
-    .card-container {
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-  }
+}

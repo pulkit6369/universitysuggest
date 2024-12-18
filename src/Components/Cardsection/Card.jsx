@@ -55,6 +55,7 @@ const TopCards = () => {
         clearInterval(timer);
       } else {
         element.textContent = start;
+        // element.textContent = start.toFixed(1);
       }
     }, 30); // Refresh every 30ms
   };
@@ -115,15 +116,18 @@ const TopCards = () => {
             <p className="label"><b>expert mentors</b></p>
           </div>
           <div className="top-card">
-            <h5 className="number">
-              <b>
-                4.2
+            <h5 className="number"
+              // ref={(el) => (numberRefs.current[3] = el)}
+              // data-target = "4.5"
+            >
+              
+                4.5
                 <img
                   src="https://e7.pngegg.com/pngimages/136/741/png-clipart-computer-icons-star-a-of-a-star-angle-leaf-thumbnail.png"
                   alt="icon"
                   className="star-icon"
                 />
-              </b>
+
             </h5>
             <p className="label"><b>rating by students</b></p>
           </div>
