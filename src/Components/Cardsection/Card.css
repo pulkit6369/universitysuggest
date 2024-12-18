@@ -49,11 +49,19 @@
     margin: 0;
   }
   
+  /* .star-icon {
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+    
+  } */
   .star-icon {
     width: 16px;
     height: 16px;
     margin-left: 5px;
+    vertical-align: middle;
   }
+  
   
   /* Optional: Responsive design */
   @media (max-width: 768px) {

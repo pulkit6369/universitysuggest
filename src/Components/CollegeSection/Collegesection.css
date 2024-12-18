@@ -11,6 +11,7 @@
     font-size: 1.1rem;
     transition: all 0.3s;
   }
+
   
   .nav-item .nav-link.active {
     background-color: #d9534f;
@@ -33,6 +34,7 @@
     z-index: 0; /* Ensuring the circles stay behind other elements */
     overflow: hidden;
   }
+   
   
   .circles li {
     position: absolute;
