@@ -1,0 +1,292 @@
+.common_banner {
+  background-color: #f9f9f9;
+  padding: 20px 0;
+}
+
+.university-banner .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.programs_banner_content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.programs_details {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.programs_details_contant h1 {
+  font-size: 2em;
+  color: #b30000;
+}
+
+.certificate_listing ul {
+  list-style: none;
+  padding: 0;
+}
+
+.certificate_listing li {
+  font-size: 1.1em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.logobrand-card {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.info_logo ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.info_logo li {
+  margin-right: 10px;
+}
+
+.info_logo img {
+  height: 57px;
+  width: 57px;
+}
+
+.nirf-content h2 {
+  font-size: 1.5em;
+}
+
+/* Second css code  */
+
+.about_main_section {
+  background-color: #f8d7da;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.heading_program_details {
+  color: #721c24;
+}
+
+.about_course_text {
+  color: #495057;
+}
+
+.course_fees {
+  margin-top: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  border: 1px solid #dc3545;
+  padding: 10px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #dc3545;
+  color: white;
+}
+
+.university_approved_main_section {
+  background-color: #f8d7da;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.certificate_listing {
+  list-style-type: none;
+  padding: 0;
+}
+
+.certificate_listing li {
+  color: #721c24;
+  margin: 5px 0;
+}
+
+.approved_logo_box {
+  display: inline-block;
+  margin: 10px;
+}
+
+.approved_logo img {
+  width: 57px;
+  height: 57px;
+}
+
+.logo_details h5 {
+  color: #721c24;
+  text-align: center;
+}
+
+/* Third css  */
+.specialisations_section {
+  background-color: #ffe6e6; /* Light red background */
+  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+}
+
+.courses_box {
+  padding: 1rem;
+  background-color: #ffcccc; /* Slightly darker red */
+}
+
+.heading_program_details {
+  color: #cc0000; /* Dark red text */
+  font-weight: bold;
+}
+
+.certificate_listing ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.certificate_listing li {
+  color: #990000; /* Darker red for list items */
+  margin: 0.5rem 0;
+}
+
+/* Fourth css  */
+
+.educationloanemi_main_section {
+  background-color: #ffe6e6; /* Light red background */
+  padding: 2rem 0;
+}
+
+.university_approved {
+  background-color: #ffcccc; /* Slightly darker red */
+  padding: 1rem;
+}
+
+.heading_program_details {
+  color: #cc0000; /* Dark red text */
+  font-weight: bold;
+}
+
+.certificate_listing ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.certificate_listing li {
+  color: #990000; /* Darker red for list items */
+  margin: 0.5rem 0;
+}
+
+.course_fees {
+  padding-top: 1rem;
+}
+
+.course_fees-scroll ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.course_heading h3,
+.course h4,
+.full_fees h4 {
+  color: #990000; /* Darker red */
+}
+
+.course h4 {
+  margin: 0.5rem 0;
+}
+
+.full_fees h4 {
+  margin: 0.5rem 0;
+}
+
+.educationloanemi_btn small {
+  color: #990000; /* Darker red for the note */
+}
+
+.educationloanemi_main_section {
+  background-color: #ffe6e6; /* Light red background */
+  padding: 2rem 0;
+}
+
+.university_approved {
+  background-color: #ffcccc; /* Slightly darker red */
+  padding: 1rem;
+}
+
+.heading_program_details {
+  color: #cc0000; /* Dark red text */
+  font-weight: bold;
+}
+
+.certificate_listing ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.certificate_listing li {
+  color: #990000; /* Darker red for list items */
+  margin: 0.5rem 0;
+}
+
+.course_fees {
+  padding-top: 1rem;
+}
+
+.course_fees-scroll {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #cc0000; /* Dark red border */
+  padding: 0.5rem;
+  text-align: left;
+}
+
+th {
+  background-color: #ffcccc; /* Slightly darker red for header */
+  color: #cc0000; /* Dark red text */
+}
+
+td {
+  color: #990000; /* Darker red for table data */
+}
+
+.educationloanemi_btn small {
+  color: #990000; /* Darker red for the note */
+}
+
+.admissionopen_main_section {
+  background-color: #fff5f5;
+  padding: 20px;
+  border: 1px solid #f5c2c2;
+  border-radius: 5px;
+}
+
+.heading_program_details {
+  color: #d32f2f;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.admissionopen p,
+.admissionopen strong,
+.admissionopen em {
+  color: #d32f2f;
+  font-size: 16px;
+}
+
+.admissionopen p {
+  margin: 10px 0;
+}

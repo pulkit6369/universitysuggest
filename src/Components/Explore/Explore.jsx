@@ -1,4 +1,5 @@
-import  { useState } from 'react'; 
+import { useState } from 'react';
+
 import './Explore.css';
 
 const ProgramTabs = () => {
@@ -71,7 +72,21 @@ const ProgramTabs = () => {
                 <div className="program-cards-container">
                   <div className="program-card">
                     <a to="/">
-                       
+
+                      <div className="card-body text-center">
+                        <img src="" alt="Online MCA" />
+                        <p>Online MCA</p>
+                      </div>
+                    </a>
+                    <div className="card-footer">
+                      <a to="/assets/mca.png" className="link">
+                        View Program
+                      </a>
+                    </div>
+                  </div>
+                  <div className="program-card">
+                    <a to="/">
+
                       <div className="card-body text-center">
                         <img src="./assets/mca.png" alt="Online MCA" />
                         <p>Online MCA</p>
@@ -85,7 +100,7 @@ const ProgramTabs = () => {
                   </div>
                   <div className="program-card">
                     <a to="/">
-                       
+
                       <div className="card-body text-center">
                         <img src="./assets/mca.png" alt="Online MCA" />
                         <p>Online MCA</p>
@@ -99,21 +114,7 @@ const ProgramTabs = () => {
                   </div>
                   <div className="program-card">
                     <a to="/">
-                       
-                      <div className="card-body text-center">
-                        <img src="./assets/mca.png" alt="Online MCA" />
-                        <p>Online MCA</p>
-                      </div>
-                    </a>
-                    <div className="card-footer">
-                      <a to="/" className="link">
-                        View Program
-                      </a>
-                    </div>
-                  </div>
-                  <div className="program-card">
-                    <a to="/">
-                       
+
                       <div className="card-body text-center">
                         <img src="./assets/mca.png" alt="Online MCA" />
                         <p>Online MCA</p>
@@ -135,7 +136,7 @@ const ProgramTabs = () => {
                 <div className="program-cards-container">
                   <div className="program-card">
                     <a to="/">
-                       
+
                       <div className="card-body text-center">
                         <img src="./assets/bca.png" alt="Online BCA" />
                         <p>Online BCA</p>
@@ -149,7 +150,7 @@ const ProgramTabs = () => {
                   </div>
                   <div className="program-card">
                     <a to="/">
-                       
+
                       <div className="card-body text-center">
                         <img src="./assets/bca.png" alt="Online BCA" />
                         <p>Online BCA</p>
@@ -163,7 +164,7 @@ const ProgramTabs = () => {
                   </div>
                   <div className="program-card">
                     <a to="/">
-                       
+
                       <div className="card-body text-center">
                         <img src="./assets/bca.png" alt="Online BCA" />
                         <p>Online BCA</p>
@@ -177,7 +178,7 @@ const ProgramTabs = () => {
                   </div>
                   <div className="program-card">
                     <a to="/">
-                       
+
                       <div className="card-body text-center">
                         <img src="./assets/bca.png" alt="Online BCA" />
                         <p>Online BCA</p>
@@ -191,7 +192,7 @@ const ProgramTabs = () => {
                   </div>
                   <div className="program-card">
                     <a to="/">
-                       
+
                       <div className="card-body text-center">
                         <img src="./assets/bca.png" alt="Online BCA" />
                         <p>Online BCA</p>
@@ -205,7 +206,7 @@ const ProgramTabs = () => {
                   </div>
                   <div className="program-card">
                     <a to="/">
-                       
+
                       <div className="card-body text-center">
                         <img src="./assets/bca.png" alt="Online BCA" />
                         <p>Online BCA</p>
@@ -227,7 +228,7 @@ const ProgramTabs = () => {
                 <div className="program-cards-container">
                   <div className="program-card">
                     <a to="/">
-                       
+
                       <div className="card-body text-center">
                         <img src="./assets/executive-program.png" alt="Executive Program" />
                         <p>Executive Program in Management</p>
@@ -241,7 +242,7 @@ const ProgramTabs = () => {
                   </div>
                   <div className="program-card">
                     <a to="/">
-                       
+
                       <div className="card-body text-center">
                         <img src="./assets/executive-program.png" alt="Executive Program" />
                         <p>Executive Program in Management</p>
@@ -255,7 +256,7 @@ const ProgramTabs = () => {
                   </div>
                   <div className="program-card">
                     <a to="/">
-                       
+
                       <div className="card-body text-center">
                         <img src="./assets/executive-program.png" alt="Executive Program" />
                         <p>Executive Program in Management</p>
@@ -269,7 +270,7 @@ const ProgramTabs = () => {
                   </div>
                   <div className="program-card">
                     <a to="/">
-                       
+
                       <div className="card-body text-center">
                         <img src="./assets/executive-program.png" alt="Executive Program" />
                         <p>Executive Program in Management</p>
@@ -283,7 +284,7 @@ const ProgramTabs = () => {
                   </div>
                   <div className="program-card">
                     <a to="/">
-                       
+
                       <div className="card-body text-center">
                         <img src="./assets/executive-program.png" alt="Executive Program" />
                         <p>Executive Program in Management</p>
@@ -297,7 +298,7 @@ const ProgramTabs = () => {
                   </div>
                   <div className="program-card">
                     <a to="/">
-                       
+
                       <div className="card-body text-center">
                         <img src="./assets/executive-program.png" alt="Executive Program" />
                         <p>Executive Program in Management</p>
@@ -319,7 +320,7 @@ const ProgramTabs = () => {
                 <div className="program-cards-container">
                   <div className="program-card">
                     <a to="/">
-                       
+
                       <div className="card-body text-center">
                         <img src="./assets/certification.png" alt="Certification Program" />
                         <p>Digital Marketing Certification</p>
@@ -333,7 +334,7 @@ const ProgramTabs = () => {
                   </div>
                   <div className="program-card">
                     <a to="/">
-                       
+
                       <div className="card-body text-center">
                         <img src="./assets/certification.png" alt="Certification Program" />
                         <p>Digital Marketing Certification</p>
@@ -347,7 +348,7 @@ const ProgramTabs = () => {
                   </div>
                   <div className="program-card">
                     <a to="/">
-                       
+
                       <div className="card-body text-center">
                         <img src="./assets/certification.png" alt="Certification Program" />
                         <p>Digital Marketing Certification</p>
@@ -361,7 +362,7 @@ const ProgramTabs = () => {
                   </div>
                   <div className="program-card">
                     <a to="/">
-                       
+
                       <div className="card-body text-center">
                         <img src="./assets/certification.png" alt="Certification Program" />
                         <p>Digital Marketing Certification</p>
@@ -375,7 +376,7 @@ const ProgramTabs = () => {
                   </div>
                   <div className="program-card">
                     <a to="/">
-                       
+
                       <div className="card-body text-center">
                         <img src="./assets/certification.png" alt="Certification Program" />
                         <p>Digital Marketing Certification</p>
@@ -389,7 +390,7 @@ const ProgramTabs = () => {
                   </div>
                   <div className="program-card">
                     <a to="/">
-                       
+
                       <div className="card-body text-center">
                         <img src="./assets/certification.png" alt="Certification Program" />
                         <p>Digital Marketing Certification</p>

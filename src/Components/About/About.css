@@ -1,0 +1,8 @@
+.about_image{
+    cursor: pointer;
+    filter: grayscale(1);
+
+}
+.about_image:hover{
+    filter: none;
+}

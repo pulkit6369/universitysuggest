@@ -46,7 +46,8 @@ const TopCards = () => {
   const animateNumber = (element, targetNumber) => {
     let start = 0;
     const duration = 2000; // Total duration of the animation (in milliseconds)
-    const increment = Math.ceil(targetNumber / (duration / 30)); // Increment value based on duration and refresh rate
+    const increment = Math.ceil(targetNumber / (duration / 
+      30)); // Increment value based on duration and refresh rate
 
     const timer = setInterval(() => {
       start += increment;
@@ -112,6 +113,7 @@ const TopCards = () => {
               data-target="350"
             >
               0
+              <span><i className="fa-solid fa-plus"></i></span>
             </h5>
             <p className="label"><b>expert mentors</b></p>
           </div>

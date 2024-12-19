@@ -29,7 +29,7 @@
 
 .program-card:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 
 .program-card img {
@@ -47,107 +47,107 @@
 }
 
 .explore-programs .section-header {
-    max-width: 780px;
-    margin: 0 auto;
-    padding-bottom: 20px;
+  max-width: 780px;
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
 
 .explore-programs .pill-title {
-    font-size: 16px;
-    font-weight: 600;
-    color: #333;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
 }
 
 .explore-programs .nav-pills .nav-link {
-    border: none;
-    background-color: #f8f9fa;
-    margin: 0 15px;
-    padding: 12px 20px;
-    transition: all 0.3s ease;
-    border-radius: 8px;
-    color: #333;
+  border: none;
+  background-color: #f8f9fa;
+  margin: 0 15px;
+  padding: 12px 20px;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  color: #333;
 }
 
 .explore-programs .nav-pills .nav-link.active {
-    background-color: #ff0000;
-    color: white;
-    border-radius: 10px;
+  background-color: #ff0000;
+  color: white;
+  border-radius: 10px;
 }
 
 .explore-programs .program-cards-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
 }
 
 .explore-programs .program-card {
-    width: 100%;
-    max-width: calc(33% - 20px);
-    background-color: #ffffff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-    text-align: center;
-    overflow: hidden;
+  width: 100%;
+  max-width: calc(33% - 20px);
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  text-align: center;
+  overflow: hidden;
 }
-
+/* 
 .explore-programs .program-card:hover {
-    transform: translateY(-5px);
-}
+    transform: translateY(-5px); 
+} */
 
 .explore-programs .card-header .duration {
-    background-color: #ff0000;
-    color: white;
-    padding: 5px 15px;
-    font-size: 14px;
-    border-radius: 20px;
-    position: absolute;
-    top: 10px;
-    left: 15px;
+  background-color: #ff0000;
+  color: white;
+  padding: 5px 15px;
+  font-size: 14px;
+  border-radius: 20px;
+  position: absolute;
+  top: 10px;
+  left: 15px;
 }
 
 .explore-programs .card-body {
-    padding: 20px;
+  padding: 20px;
 }
 
 .explore-programs .card-body img {
-    width: 80px;
-    height: auto;
-    margin-bottom: 10px;
+  width: 80px;
+  height: auto;
+  margin-bottom: 10px;
 }
 
 .explore-programs .card-body p {
-    font-size: 18px;
-    color: #333;
+  font-size: 18px;
+  color: #333;
 }
 
 .explore-programs .card-footer {
-    background-color: #f8f9fa;
-    padding: 10px;
-    border-top: 1px solid #ddd;
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-top: 1px solid #ddd;
 }
 
 .explore-programs .card-footer .link {
-    text-decoration: none;
-    color: #ff0000;
-    font-weight: bold;
+  text-decoration: none;
+  color: #ff0000;
+  font-weight: bold;
 }
 
 /* Responsive Styles */
 @media (max-width: 991px) {
-    .explore-programs .program-card {
-        max-width: calc(50% - 20px); /* 2 cards per row */
-    }
+  .explore-programs .program-card {
+    max-width: calc(50% - 20px); /* 2 cards per row */
+  }
 }
 
 @media (max-width: 767px) {
-    .explore-programs .program-card {
-        max-width: 100%; /* 1 card per row on mobile */
-    }
+  .explore-programs .program-card {
+    max-width: 100%; /* 1 card per row on mobile */
+  }
 
-    .explore-programs .nav-pills .nav-link {
-        font-size: 14px;
-    }
+  .explore-programs .nav-pills .nav-link {
+    font-size: 14px;
+  }
 }

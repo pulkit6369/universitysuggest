@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types'; // Import PropTypes
-import "./UniversityCaard.css"
+import { NavLink } from 'react-router-dom';
+import "./UniversityCaard.css";
 
 
 const Universitycard = ({ university }) => {
@@ -31,7 +32,11 @@ const Universitycard = ({ university }) => {
           <p className="card-text">
             <strong>Alumni:</strong> {university?.alumni || 'N/A'}
           </p>
-          <button className="visit-btn">Visit</button>
+          {/* <button className="visit-btn">Visit</button> */}
+          <NavLink className="visit-btn btn" to="/OnePageUniversity">
+            Visit
+          </NavLink>
+
         </div>
       </div>
     </div>

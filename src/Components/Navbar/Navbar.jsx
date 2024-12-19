@@ -22,6 +22,11 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-0">
             <li className="nav-item">
+              <NavLink className="nav-link" to="/About">
+                About us
+              </NavLink>
+            </li>
+            <li className="nav-item">
               <NavLink className="nav-link" to="/find-programs">
                 Find Programs
               </NavLink>
