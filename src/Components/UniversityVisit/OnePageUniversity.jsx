@@ -292,7 +292,7 @@ const OnePageUniversity = () => {
                     <strong>Manipal University&nbsp;</strong>
                     <strong className="d-block" style={{ backgroundColor: 'var(--bs-body-bg)', color: 'var(--bs-body-color)', fontSize: 'var(--bs-body-font-size)', textAlign: 'var(--bs-body-text-align)', display: 'inline !important' }}>System</strong>
                     <small className="mb-2 d-block">Student Information Guide</small>
-                    <p className="mb-2">Manipal University's online examination system offers online students the flexibility of giving examinations at designated centers or a preferred location of their choice through online proctoring.</p>
+                    <p className="mb-2">Manipal Universitys online examination system offers online students the flexibility of giving examinations at designated centers or a preferred location of their choice through online proctoring.</p>
                     <p className="mb-2">Exams for all online programs at Manipal University<strong>&nbsp;</strong>are proctored online using cutting-edge technology. Internal and external examinations are part of the exam pattern. Internal (assignments) weightage is 30%, whereas external (end-of-term examinations) weightage is 70%.</p>
                     <p className="mb-2"><strong>Proctoring (at your preferred location):</strong>&nbsp;In online proctoring, students need to give their exam at their preferred location, provided the following:</p>
                     <h4 className="innerheading_bar">Online Examination Process</h4>
