@@ -36,7 +36,7 @@
 }
 
 .nav-link:hover {
-    background-color: #dc3545; /* Highlight on hover */
+    background-color:rgb(221, 15, 35); /* Highlight on hover */
     color: #fff;
     border-radius: 4px;
 }
@@ -49,7 +49,7 @@
 }
 
 .btn:hover {
-    background-color: #dc3545;
+    background-color:rgb(221, 15, 35); ;
     color: white;
 }
 
@@ -152,3 +152,6 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
+
+
+  

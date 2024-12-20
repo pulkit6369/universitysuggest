@@ -92,7 +92,7 @@ const TopCards = () => {
               ref={(el) => (numberRefs.current[0] = el)}
               data-target="500"
             >
-              0
+              0 
             </h5>
             <p className="label"><b>programs</b></p>
           </div>
