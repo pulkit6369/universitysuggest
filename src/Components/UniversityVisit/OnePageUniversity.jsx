@@ -1,89 +1,95 @@
 // import React from 'react';
 import './AboutCourse.css';
+import univerImage from '../../assets/university.jpg'
+import smallImage from '../../assets/small 2.webp'
+
 
 const OnePageUniversity = () => {
     return (
         <>
+            {/* top section */}
+
             <section className="common_banner university-banner">
                 <div className="container">
-                    <div className="programs_banner_content d-flex">
-                        <div className="programs_details">
-                            <div className="programs_details_contant">
-                                <h1>MBA - Manipal University Online</h1>
-                                <div className="certificate_listing uni-shor-des">
-                                    <ul>
-                                        <li>Has over 250 international collaborations with universities</li>
-                                        <li>Focuses on interdisciplinary research and engagement with the wider research community.</li>
-                                    </ul>
-                                </div>
-                                <div className="d-md-flex logobrand-card align-items-center">
-                                    <div className="info_logo">
+                    <div className="row">
+                        <div className="col-md-7">
+                            <div className="programs_details">
+                                <div className="programs_details_contant">
+                                    <h1 className='fw-bold'>MBA - Manipal University Online</h1>
+                                    <div className="certificate_listing uni-shor-des">
                                         <ul>
-                                            <li>
-                                                <figure>
-                                                    <img src="https://www.collegesathi.com/image.php?image=https://www.collegesathi.com/uploads/dropdown/1716409587-dropdown-image.jpg&height=57&webp=1&width=57&zc=0&ct=0&cropratio=" alt="1716409587-dropdown-image.jpg" />
-                                                </figure>
-                                            </li>
-                                            <li>
-                                                <figure>
-                                                    <img src="https://www.collegesathi.com/image.php?image=https://www.collegesathi.com/uploads/dropdown/1716409436-dropdown-image.png&height=57&webp=1&width=57&zc=0&ct=0&cropratio=" alt="1716409436-dropdown-image.png" />
-                                                </figure>
-                                            </li>
-                                            <li>
-                                                <figure>
-                                                    <img src="https://www.collegesathi.com/image.php?image=https://www.collegesathi.com/uploads/dropdown/1717254502-dropdown-image.png&height=57&webp=1&width=57&zc=0&ct=0&cropratio=" alt="1717254502-dropdown-image.png" />
-                                                </figure>
-                                            </li>
-                                            <li>
-                                                <figure>
-                                                    <img src="https://www.collegesathi.com/image.php?image=https://www.collegesathi.com/uploads/dropdown/1713269316-dropdown-image.png&height=57&webp=1&width=57&zc=0&ct=0&cropratio=" alt="1713269316-dropdown-image.png" />
-                                                </figure>
-                                            </li>
-                                            <li>
-                                                <figure>
-                                                    <img src="https://www.collegesathi.com/image.php?image=https://www.collegesathi.com/uploads/dropdown/1716409297-dropdown-image.png&height=57&webp=1&width=57&zc=0&ct=0&cropratio=" alt="1716409297-dropdown-image.png" />
-                                                </figure>
-                                            </li>
+                                            <li>Has over 250 international collaborations with universities</li>
+                                            <li>Focuses on interdisciplinary research and engagement with the wider research community.</li>
                                         </ul>
                                     </div>
-                                    <div className="nirf-content">
-                                        <h2>
-                                            <span className="d-block pb-2"><img src="https://www.collegesathi.com/images/info-logo6.png" alt="NIRF logo" /></span> NIRF Ranking
-                                            <strong className="d-block">#73</strong>
-                                        </h2>
-                                    </div>
-                                </div>
-                                <div className="compare_btn_box">
-                                    <div className="download_prospectus compare_btn_section">
-                                        <a href="#" className="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                            <span>Download Prospectus</span>
-                                        </a>
-                                    </div>
-                                    <div className="d-flex addto_compare_box">
-                                        <div className="compare_btn">
-                                            <a href="javascript:void(0);" className="addToCompare" data-university_id="30" data-course_id="134" data-page_request="course_university" id="universityCompareButton">
-                                                <img className="plus_icon" src="https://www.collegesathi.com/images/plus_icon.svg" alt="plus icon" />
-                                                <img className="plus_icon_white" src="https://www.collegesathi.com/images/plus_icon_white.svg" alt="plus icon white" />Add to compare
-                                            </a>
+                                    <div className="d-md-flex logobrand-card align-items-center">
+                                        <div className="info_logo">
+                                            <ul>
+                                                <li>
+                                                    <figure className='rounded_small_images'>
+                                                        <img src={smallImage} alt="1716409587-dropdown-image.jpg" className="img-fluid " />
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure className='rounded_small_images'>
+                                                        <img src={smallImage} alt="1716409436-dropdown-image.png" className="img-fluid" />
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure className='rounded_small_images'>
+                                                        <img src={smallImage} alt="1717254502-dropdown-image.png" className="img-fluid" />
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure className='rounded_small_images'>
+                                                        <img src={smallImage} alt="1713269316-dropdown-image.png" className="img-fluid" />
+                                                    </figure>
+                                                </li>
+                                                <li>
+                                                    <figure className='rounded_small_images'>
+                                                        <img src={smallImage} alt="1716409297-dropdown-image.png" className="img-fluid" />
+                                                    </figure>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div className="nirf-content ">
+                                            <h2 >
+                                                <span className="d-block pb-2 ">
+                                                    <img src="https://www.collegesathi.com/images/info-logo6.png" alt="NIRF logo" className="img-fluid" />
+                                                </span> NIRF Ranking
+                                                <strong className="d-block">#73</strong>
+                                            </h2>
                                         </div>
                                     </div>
-                                </div>
-                                <div className="star_rating">
-                                    <figure><span className="rating" data-score=''></span></figure>
-                                    <h5><span>Manipal University Online</span></h5>
+                                    <div className="compare_btn_box">
+                                        <div className="download_prospectus compare_btn_section">
+                                            <a href="#" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                <span>Download Prospectus</span>
+                                            </a>
+                                        </div>
+                                        <div className="d-flex addto_compare_box">
+                                            <div className="compare_btn">
+                                                <a href="javascript:void(0);" className="addToCompare" data-university_id="30" data-course_id="134" data-page_request="course_university" id="universityCompareButton">
+                                                    <img className="plus_icon" src="https://www.collegesathi.com/images/plus_icon.svg" alt="plus icon" />
+                                                    <img className="plus_icon_white" src="https://www.collegesathi.com/images/plus_icon_white.svg" alt="plus icon white" />Add to compare
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="star_rating">
+                                        <figure><span className="rating" data-score=''></span></figure>
+                                        <h5><span>Manipal University Online</span></h5>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="programs_crousel">
-                            <div className="slider responsive">
-                                <div className="programs_crousel_item">
-                                    <div className="program_img_box">
-                                        <figure>
-                                            <img src="https://www.collegesathi.com/image.php?image=https://www.collegesathi.com/uploads/slider/1732272920-slider-image.png&height=405&webp=1&width=585&zc=2&ct=0&cropratio=" alt="1732272920-slider-image.png" />
-                                        </figure>
-                                        <div className="small_logo">
-                                            <figure className="university_logo_explore_program">
-                                                <img src="https://www.collegesathi.com/uploads/university/1719320980-university-image.png" alt="Manipal University Logo" />
+                        <div className="col-md-5">
+                            <div className="programs_crousel">
+                                <div className="slider responsive">
+                                    <div className="programs_crousel_item">
+                                        <div className="program_img_box">
+                                            <figure>
+                                                <img src={univerImage} alt="1732272920-slider-image.png" className="img-fluid" />
                                             </figure>
                                         </div>
                                     </div>
@@ -96,6 +102,7 @@ const OnePageUniversity = () => {
 
 
 
+   {/* Start second section */}
 
             <div>
                 <section id="About" className="about_main_section">
@@ -157,6 +164,9 @@ const OnePageUniversity = () => {
                         </div>
                     </div>
                 </section>
+
+
+                {/* Third section */}
 
                 <section id="Approvals" className="university_approved_main_section">
                     <div className="university_approved">

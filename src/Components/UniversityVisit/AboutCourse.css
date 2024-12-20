@@ -1,45 +1,9 @@
-.common_banner {
-  background-color: #f9f9f9;
-  padding: 20px 0;
+*{
+  /* overflow: hidden; */
 }
-
-.university-banner .container {
-  max-width: 1200px;
-  margin: 0 auto;
+.rounded_small_images img{
+  border-radius: 50%;
 }
-
-.programs_banner_content {
-  display: flex;
-  justify-content: space-between;
-}
-
-.programs_details {
-  flex: 1;
-  margin-right: 20px;
-}
-
-.programs_details_contant h1 {
-  font-size: 2em;
-  color: #b30000;
-}
-
-.certificate_listing ul {
-  list-style: none;
-  padding: 0;
-}
-
-.certificate_listing li {
-  font-size: 1.1em;
-  color: #333;
-  margin-bottom: 10px;
-}
-
-.logobrand-card {
-  display: flex;
-  align-items: center;
-  margin-top: 20px;
-}
-
 .info_logo ul {
   display: flex;
   list-style: none;
@@ -57,6 +21,8 @@
 
 .nirf-content h2 {
   font-size: 1.5em;
+  margin-left: 75px;
+
 }
 
 /* Second css code  */
