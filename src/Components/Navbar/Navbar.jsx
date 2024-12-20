@@ -3,7 +3,7 @@ import './Navbar.css';
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light m-2 bg-back">
+    <nav className="navbar navbar-expand-lg  m-2" id='costum-mode'>
       <div className="container">
         <NavLink className="navbar-brand" to="/">
           <img src="./images/Logo/log.png" alt="Logo" className="img-fluid" />
@@ -41,7 +41,7 @@ function Navbar() {
                 ✅ Expert Advice
               </NavLink>
             </li>
-            <li className="nav-item">
+            <li className="nav-item helpline">
               <NavLink className="nav-link" to="/">
                 HelpLine: 9785-800-008
               </NavLink>

@@ -1,10 +1,12 @@
 
   
 .navbar {
-    background-color: #f8f9fa; /* Light background */
+    /* background-color: #f8f9fa; Light background */
+    background-color: #ff2b49; /* Light background */
     padding: 10px 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
 
 .navbar-brand img {
     height: 40px;
@@ -29,6 +31,8 @@
 
 .nav-link {
     color: #212529;
+    /* color: #ff2b49; */
+
     font-size: 0.9rem; /* Smaller font size */
     padding: 5px 10px; /* Reduced padding for compact buttons */
     text-decoration: none;
@@ -36,7 +40,8 @@
 }
 
 .nav-link:hover {
-    background-color: #dc3545; /* Highlight on hover */
+    /* background-color: #dc3545; Highlight on hover */
+    border-color: #ea251f;
     color: #fff;
     border-radius: 4px;
 }

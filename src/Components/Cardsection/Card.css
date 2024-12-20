@@ -28,8 +28,9 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border: 2px solid #e63946; /* Red border */
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  
+  border: 2px solid #f50c0c; /* Red border */
   transition: transform 0.4s ease;
   padding: 10px; /* Add some padding to the card */
   will-change: transform; /* Inform browser about upcoming changes */
@@ -38,6 +39,14 @@
 
 .top-card:hover {
   transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(228, 6, 6, 0.941);
+
+
+}
+.helpline {
+  font-weight: bold;
+  color: #dc3545; /* Optional: Use a red shade to highlight */
+  white-space: nowrap; /* Prevent wrapping */
 }
 
 /* Text Styling */
