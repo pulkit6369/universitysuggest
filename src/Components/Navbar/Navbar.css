@@ -1,10 +1,12 @@
 
   
 .navbar {
-    background-color: #f8f9fa; /* Light background */
+    /* background-color: #f8f9fa; Light background */
+    background-color: #ff2b49; /* Light background */
     padding: 10px 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
 
 .navbar-brand img {
     height: 40px;
@@ -29,6 +31,8 @@
 
 .nav-link {
     color: #212529;
+    /* color: #ff2b49; */
+
     font-size: 0.9rem; /* Smaller font size */
     padding: 5px 10px; /* Reduced padding for compact buttons */
     text-decoration: none;
@@ -36,7 +40,12 @@
 }
 
 .nav-link:hover {
+<<<<<<< HEAD
     background-color:rgb(221, 15, 35); /* Highlight on hover */
+=======
+    /* background-color: #dc3545; Highlight on hover */
+    border-color: #ea251f;
+>>>>>>> 5d93179464d954f3a6cb093ba656a784f741688d
     color: #fff;
     border-radius: 4px;
 }
@@ -152,6 +161,26 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
-
+.nav-link {
+    background-color: #ea251f !important;
+    color: white !important; /* Ensure text is visible */
+    padding: 10px 15px;
+    border-radius: 5px; /* Optional: Adds rounded corners */
+    margin: 0 5px; /* Optional: Adds spacing between links */
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: #b81e18 !important; /* Darker on hover */
+    color: white !important;
+    font-weight: bold;
+  }
+  .helpline{
+    font-wight: bold;
+    color:#dc3545;
+    white-space: nowrap;
+  }
+  
 
   

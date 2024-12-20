@@ -41,8 +41,8 @@ function Navbar() {
                 ✅ Expert Advice
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink className="nav-link " to="/">
+            <li className="nav-item helpline">
+              <NavLink className="nav-link  " to="/">
                 HelpLine: 9785-800-008
               </NavLink>
             </li>
