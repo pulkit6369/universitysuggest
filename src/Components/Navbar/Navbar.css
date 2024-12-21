@@ -40,12 +40,7 @@
 }
 
 .nav-link:hover {
-<<<<<<< HEAD
     background-color:rgb(221, 15, 35); /* Highlight on hover */
-=======
-    /* background-color: #dc3545; Highlight on hover */
-    border-color: #ea251f;
->>>>>>> 5d93179464d954f3a6cb093ba656a784f741688d
     color: #fff;
     border-radius: 4px;
 }
