@@ -1,0 +1,46 @@
+/* BrowseByDomain.css */
+
+.browse-by-domain {
+    padding: 20px;
+    background-color: #fff5f5;
+    border: 2px solid #ff4d4d;
+    border-radius: 8px;
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .dropdown-label {
+    font-size: 18px;
+    color: #b30000;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .domain-select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ff4d4d;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .subdomain-list {
+    background-color: #ffe6e6;
+    padding: 15px;
+    border-radius: 6px;
+  }
+  
+  .subdomain-title {
+    font-size: 20px;
+    color: #b30000;
+    margin-bottom: 10px;
+  }
+  
+  .subdomain-item {
+    font-size: 16px;
+    color: #800000;
+    padding: 5px 0;
+  }
+  

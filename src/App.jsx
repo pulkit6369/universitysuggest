@@ -86,7 +86,7 @@ import LeadingUniversities from './Components/Leading-Banner/Leading-banner';
 import Navbar from './Components/Navbar/Navbar';
 import Universitiesspage from './Components/UniversitiesPaage/Universitiespage';
 import OnePageUniversity from './Components/UniversityVisit/OnePageUniversity';
-
+import BrowseByDomain from './Components/BrowseBydomain/Findprogram';
 
 function App() {
   return (
@@ -104,6 +104,7 @@ function App() {
             <Expertslider />
             <FaqSection />
             <ContactUs />
+            
 
           </>
         } />
@@ -112,9 +113,11 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/about" element={<About />} />
         <Route path="/onePageUniversity" element={<OnePageUniversity />} />
+        <Route path="/find-programs" element={<BrowseByDomain />} />
+       
 
 
-      </Routes>
+         </Routes>
     </>
   );
 }
