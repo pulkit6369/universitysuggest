@@ -102,7 +102,7 @@ const OnePageUniversity = () => {
 
 
 
-   {/* Start second section */}
+            {/* Start second section */}
 
             <div>
                 <section id="About" className="about_main_section">
