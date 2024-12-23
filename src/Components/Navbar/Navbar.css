@@ -172,7 +172,7 @@
     font-weight: bold;
   }
   .helpline{
-    font-wight: bold;
+    /* font-weight: bold; */
     color:#dc3545;
     white-space: nowrap;
   }

@@ -8,7 +8,6 @@ const OnePageUniversity = () => {
     return (
         <>
             {/* top section */}
-
             <section className="common_banner university-banner">
                 <div className="container">
                     <div className="row">
@@ -164,41 +163,43 @@ const OnePageUniversity = () => {
                         </div>
                     </div>
                 </section>
+                <div />
+
 
 
                 {/* Third section */}
 
                 <section id="Approvals" className="university_approved_main_section">
-    <div className="university_approved">
-        <h2 className="heading_program_details mb-2">Approvals</h2>
-        <ul className="certificate_listing mb-0">
-            <li>UGC</li>
-            <li>NAAC A++</li>
-            <li>AICTE</li>
-            <li>BCI</li>
-            <li>COA</li>
-            <li>NBA</li>
-            <li>QS</li>
-        </ul>
-    </div>
+                    <div className="university_approved">
+                        <h2 className="heading_program_details mb-2">Approvals</h2>
+                        <ul className="certificate_listing mb-0">
+                            <li>UGC</li>
+                            <li>NAAC A++</li>
+                            <li>AICTE</li>
+                            <li>BCI</li>
+                            <li>COA</li>
+                            <li>NBA</li>
+                            <li>QS</li>
+                        </ul>
+                    </div>
 
-    <div className="university_approved_crousel">
-        <div className="slider approved_crousel">
-            {['AICTE', 'NAAC', 'NBA', 'QS', 'UGC'].map((item, index) => (
-                <div className="approved_logo_box" key={index}>
-                    <div className="approved_logo">
-                        <figure>
-                            <img src={`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrWEIQMuB3fNutdD1dXf6AC1QyiBdPw-vHWA&s`} alt={`${item}-logo`} />
-                        </figure>
-                        <div className="logo_details">
-                            <h5>{item}</h5>
+                    <div className="university_approved_crousel">
+                        <div className="slider approved_crousel">
+                            {['AICTE', 'NAAC', 'NBA', 'QS', 'UGC'].map((item, index) => (
+                                <div className="approved_logo_box" key={index}>
+                                    <div className="approved_logo">
+                                        <figure>
+                                            <img src={`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrWEIQMuB3fNutdD1dXf6AC1QyiBdPw-vHWA&s`} alt={`${item}-logo`} />
+                                        </figure>
+                                        <div className="logo_details">
+                                            <h5>{item}</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            ))}
                         </div>
                     </div>
-                </div>
-            ))}
-        </div>
-    </div>
-</section>
+                </section>
 
 
                 <section className="specialisations_section pb-4 pt-2" id="Specialisations">
