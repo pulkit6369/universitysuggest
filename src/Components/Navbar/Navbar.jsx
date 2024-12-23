@@ -20,7 +20,7 @@ function Navbar() {
           <i className="fas fa-stream"></i>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav ms-auto mb-0">
+          <ul className="navbar-nav ms-auto mb-0 gap-2">
             <li className="nav-item">
               <NavLink className="nav-link" to="/About">
                 About us
@@ -41,17 +41,12 @@ function Navbar() {
                 ✅ Expert Advice
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/">
+            <li className="nav-item helpline">
+              <NavLink className="nav-link  " to="/">
                 HelpLine: 9785-800-008
               </NavLink>
             </li>
           </ul>
-          <form className="d-flex ps-3">
-            <button className="btn btn-outline-danger" type="submit">
-              Search
-            </button>
-          </form>
         </div>
       </div>
     </nav>

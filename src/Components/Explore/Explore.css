@@ -11,7 +11,7 @@
 }
 
 .nav-pills .nav-link:hover {
-  background-color: #ff2137;
+  background-color: #ea251f;
   color: white;
 }
 
@@ -39,11 +39,11 @@
 }
 
 .program-card .fw-bold {
-  color: #ff2137;
+  color: #ea251f;
 }
 
 .text-danger {
-  color: #ff2137 !important;
+  color: #ea251f !important;
 }
 
 .explore-programs .section-header {
@@ -55,7 +55,7 @@
 .explore-programs .pill-title {
   font-size: 16px;
   font-weight: 600;
-  color: #333;
+  color: #ffffff;
 }
 
 .explore-programs .nav-pills .nav-link {
@@ -65,11 +65,11 @@
   padding: 12px 20px;
   transition: all 0.3s ease;
   border-radius: 8px;
-  color: #333;
+  color: #ffffff;
 }
 
 .explore-programs .nav-pills .nav-link.active {
-  background-color: #ff0000;
+  background-color: #ea251f;
   color: white;
   border-radius: 10px;
 }
@@ -98,7 +98,7 @@
 } */
 
 .explore-programs .card-header .duration {
-  background-color: #ff0000;
+  background-color: #ea251f;
   color: white;
   padding: 5px 15px;
   font-size: 14px;
@@ -131,7 +131,7 @@
 
 .explore-programs .card-footer .link {
   text-decoration: none;
-  color: #ff0000;
+  color: #ea251f;
   font-weight: bold;
 }
 

@@ -256,3 +256,52 @@ td {
 .admissionopen p {
   margin: 10px 0;
 }
+/* Style the unordered list */
+.university_approved .certificate_listing {
+  list-style-type: none; /* Remove default list styling */
+  padding-left: 0;
+}
+
+/* Style each list item with a circle */
+.university_approved .certificate_listing li {
+  position: relative;
+  padding-left: 30px; /* Space for the circle */
+  font-size: 1rem; /* Adjust the font size */
+}
+
+/* Create a circle as the bullet point */
+.university_approved .certificate_listing li::before {
+  content: ''; /* Empty content for the circle */
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 12px; /* Size of the circle */
+  height: 12px; /* Size of the circle */
+  border-radius: 50%; /* Make it round */
+  background-color:rgb(208, 52, 9); /* Circle color */
+}
+.university_approved_crousel {
+    overflow: hidden; /* Hides content outside the container */
+    white-space: nowrap;
+    position: relative;
+}
+
+.slider {
+    display: flex;
+    animation: moveRightToLeft 15s linear infinite; /* Animation for smooth right-to-left scrolling */
+}
+
+.approved_logo_box {
+    flex: 0 0 auto; /* Prevents shrinking */
+    margin: 0 15px; /* Spacing between items */
+    text-align: center;
+}
+
+.approved_logo figure img {
+    max-width: 100px; /* Image width */
+    height: auto;     /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto;
+}
+
