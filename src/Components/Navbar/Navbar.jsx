@@ -42,8 +42,8 @@ function Navbar() {
               </NavLink>
             </li>
             <li className="nav-item helpline">
-              <NavLink className="nav-link  " to="/">
-                HelpLine: 9785-800-008
+              <NavLink className="nav-link" to="/">
+                <span className='helpline-text'>HelpLine: 9785-800-008</span>
               </NavLink>
             </li>
           </ul>

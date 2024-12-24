@@ -1,181 +1,193 @@
-
-  
 .navbar {
-    /* background-color: #f8f9fa; Light background */
-    background-color: #ff2b49; /* Light background */
-    padding: 10px 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* background-color: #f8f9fa; Light background */
+  background-color: #ff2b49; /* Light background */
+  padding: 10px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-
 .navbar-brand img {
-    height: 40px;
-    width: auto;
+  height: 40px;
+  width: auto;
 }
 
 .navbar-toggler {
-    font-size: 1.2rem;
-    border: none;
+  font-size: 1.2rem;
+  border: none;
 }
 
 .navbar-nav {
-    display: flex;
-    justify-content: space-between; /* Align items across full width */
-    width: 100%; /* Take full width of the navbar */
+  display: flex;
+  justify-content: space-between; /* Align items across full width */
+  width: 100%; /* Take full width of the navbar */
 }
 
 .nav-item {
-    flex: 1; /* Evenly distribute the items */
-    text-align: center; /* Center-align the nav buttons */
+  flex: 1; /* Evenly distribute the items */
+  text-align: center; /* Center-align the nav buttons */
 }
 
 .nav-link {
-    color: #212529;
-    /* color: #ff2b49; */
+  color: #212529;
+  /* color: #ff2b49; */
 
-    font-size: 0.9rem; /* Smaller font size */
-    padding: 5px 10px; /* Reduced padding for compact buttons */
-    text-decoration: none;
-    transition: color 0.3s ease, background-color 0.3s ease;
+  font-size: 0.9rem; /* Smaller font size */
+  /* padding: 5px 10px; Reduced padding for compact buttons */
+  text-decoration: none;
+  transition: color 0.3s ease, background-color 0.3s ease;
 }
 
 .nav-link:hover {
-    background-color:rgb(221, 15, 35); /* Highlight on hover */
-    color: #fff;
-    border-radius: 4px;
+  background-color: rgb(221, 15, 35); /* Highlight on hover */
+  color: #fff;
+  border-radius: 4px;
 }
 
 .btn {
-    font-size: 0.9rem;
-    padding: 6px 12px; /* Smaller padding for the button */
-    border-radius: 4px;
-    transition: all 0.3s ease-in-out;
+  font-size: 0.9rem;
+  padding: 6px 12px; /* Smaller padding for the button */
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
 }
 
 .btn:hover {
-    background-color:rgb(221, 15, 35); ;
-    color: white;
+  background-color: rgb(221, 15, 35);
+  color: white;
 }
 
-
-.navbar-brand img{
-    width: 10rem;
-    height: auto;
+.navbar-brand img {
+  width: 10rem;
+  height: auto;
 }
 .navbar {
-    background-color: #f8f9fa;
+  background-color: #f8f9fa;
 }
 
 .navbar .dropdown-menu {
-    background-color: #fff;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
 }
 
 .navbar .dropdown-menu .dropdown-item {
-    color: #000;
-    padding: 10px 15px;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
+  color: #000;
+  padding: 10px 15px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
 }
 
 .navbar .dropdown-menu .dropdown-item:hover {
-    background-color: #f1f1f1;
+  background-color: #f1f1f1;
 }
 
 .navbar .program:hover .dropdown-menu {
-    display: block;
-    animation: fadeIn 0.3s;
+  display: block;
+  animation: fadeIn 0.3s;
 }
 
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(-10px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-
-.menu-nav{
-    display: flex;
-    align-items: center;
+.menu-nav {
+  display: flex;
+  align-items: center;
 }
 
 .menu-nav .nav-item .program {
-    background-color: navy;
-    display: inline-block;
-    border-radius: 5px;
+  background-color: navy;
+  display: inline-block;
+  border-radius: 5px;
 }
-
 
 .menu-nav .nav-item .top {
-    text-decoration: none;
-    color: black;
-    margin: 30px;
+  text-decoration: none;
+  color: black;
+  margin: 30px;
 }
 
-
-.menu-nav .uni :hover{
-    background-color: bisque;
-    padding: 0.55rem;
-    border-radius: 5px;
+.menu-nav .uni :hover {
+  background-color: bisque;
+  padding: 0.55rem;
+  border-radius: 5px;
 }
 
-.menu-nav .expert{
-    border:  2px solid red;
-    border-radius: 5px;
-    background: linear-gradient(90deg, transparent, transparent) padding-box, /* Inner box */ linear-gradient(90deg, white, lightgrey) border-box;
-    color: black;
-    font-weight: bold;
+.menu-nav .expert {
+  border: 2px solid red;
+  border-radius: 5px;
+  background: linear-gradient(90deg, transparent, transparent) padding-box,
+    /* Inner box */ linear-gradient(90deg, white, lightgrey) border-box;
+  color: black;
+  font-weight: bold;
 }
 
-.menu-nav .num{
-    border:  2px solid red;
-    border-radius: 5px;
-    background-color: rgba(241, 236, 236, 0.96);
-    position: relative;
-    text-align: center;
-
+.menu-nav .num {
+  border: 2px solid red;
+  border-radius: 5px;
+  background-color: rgba(241, 236, 236, 0.96);
+  position: relative;
+  text-align: center;
 }
 
-.menu-nav .num span{
-    top: -12px;
-    left: 32px;
-    position: absolute;
-    background-color: #EC1C24;
-    text-align: center;
-    padding: 1px 10px;
-    color: white;
-    font-size: 14px;
-    font-weight: bold;
-    text-transform: uppercase;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
+.menu-nav .num span {
+  top: -12px;
+  left: 32px;
+  position: absolute;
+  background-color: #ec1c24;
+  text-align: center;
+  padding: 1px 10px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 .nav-link {
-    background-color: #ea251f !important;
-    color: white !important; /* Ensure text is visible */
-    padding: 10px 15px;
-    border-radius: 5px; /* Optional: Adds rounded corners */
-    margin: 0 5px; /* Optional: Adds spacing between links */
-    text-align: center;
-    transition: background-color 0.3s ease;
-  }
-  
-  .nav-link:hover {
-    background-color: #b81e18 !important; /* Darker on hover */
-    color: white !important;
-    font-weight: bold;
-  }
-  .helpline{
-    /* font-weight: bold; */
-    color:#dc3545;
-    white-space: nowrap;
-  }
-  
+  background-color: #ea251f !important;
+  color: white !important; /* Ensure text is visible */
+  padding: 10px 15px;
+  border-radius: 5px; /* Optional: Adds rounded corners */
+  margin: 0 5px; /* Optional: Adds spacing between links */
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
 
-  
+.nav-link:hover {
+  background-color: #b81e18 !important; /* Darker on hover */
+  color: white !important;
+  font-weight: bold;
+}
+
+/* helpline animation  */
+
+.helpline {
+  /* font-weight: bold; */
+  color: #dc3545;
+  /* white-space: nowrap; */
+  position: relative;
+  overflow: hidden;
+}
+
+@keyframes scrollText {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.helpline-text {
+
+  display: inline-block;
+  white-space: nowrap;
+  padding-left: 100%;
+  animation: scrollText 6s linear infinite;
+}
