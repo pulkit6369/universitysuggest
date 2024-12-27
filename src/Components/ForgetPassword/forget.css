@@ -1,0 +1,46 @@
+.forgot-password-container {
+    max-width: 500px;
+    margin: auto;
+    border: 1px solid #e63946; /* Red border */
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff4f4; /* Light red background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .forgot-password-container h2 {
+    color: #e63946; /* Red heading color */
+    text-align: center;
+  }
+  
+  .forgot-password-container .form-group label {
+    color: #e63946; /* Red label text */
+    font-weight: bold;
+  }
+  
+  .forgot-password-container .form-control {
+    border: 1px solid #e63946; /* Red input border */
+    border-radius: 4px;
+  }
+  
+  .forgot-password-container .form-control:focus {
+    box-shadow: 0 0 5px #e63946;
+    border-color: #e63946;
+  }
+  
+  .forgot-password-container .btn-primary {
+    background-color: #e63946;
+    border-color: #e63946;
+  }
+  
+  .forgot-password-container .btn-primary:hover {
+    background-color: #c02639;
+    border-color: #c02639;
+  }
+  
+  .forgot-password-container .message {
+    color: #e63946; /* Red message text */
+    text-align: center;
+    margin-top: 10px;
+  }
+  

@@ -87,7 +87,9 @@ import Navbar from './Components/Navbar/Navbar';
 import Universitiesspage from './Components/UniversitiesPaage/Universitiespage';
 import OnePageUniversity from './Components/UniversityVisit/OnePageUniversity';
 import BrowseByDomain from './Components/BrowseBydomain/Findprogram';
-
+import Dashboard from './Components/Dashboard/Dashboard';
+import ForgotPassword from './Components/ForgetPassword/forget';
+import AdminForm from './Components/Adminform/Admin';
 function App() {
   return (
     <>
@@ -105,6 +107,10 @@ function App() {
             <FaqSection />
             <ContactUs />
             
+          
+         
+
+            
 
           </>
         } />
@@ -114,6 +120,9 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/onePageUniversity" element={<OnePageUniversity />} />
         <Route path="/find-programs" element={<BrowseByDomain />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/forgetpassword" element={<ForgotPassword />} />
+        <Route path="/Adminform" element={<AdminForm />} />
        
 
 

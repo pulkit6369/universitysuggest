@@ -1,6 +1,7 @@
-.navbar {
-  /* background-color: #f8f9fa; Light background */
-  background-color: #ff2b49; /* Light background */
+ .navbar {
+   background-color: #f8f9fa; 
+  background-color: #ff2b49; 
+  
   padding: 10px 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -160,8 +161,9 @@
 }
 
 .nav-link:hover {
-  background-color: #b81e18 !important; /* Darker on hover */
+  background-color:rgb(240, 62, 56) !important; Darker on hover
   color: white !important;
+  text-decoration:none;
   font-weight: bold;
 }
 
@@ -169,7 +171,7 @@
 
 .helpline {
   /* font-weight: bold; */
-  color: #dc3545;
+  color:rgb(248, 241, 242);
   /* white-space: nowrap; */
   position: relative;
   overflow: hidden;
@@ -190,4 +192,94 @@
   white-space: nowrap;
   padding-left: 100%;
   animation: scrollText 6s linear infinite;
+  
+  
+  
 }
+/* Navbar Dropdown Red Theme */
+
+/* Dropdown Menu */
+.navbar .dropdown-menu {
+  background-color:rgb(255, 144, 144); /* Red background */
+  border: none; /* Remove border */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+/* Dropdown Items */
+.navbar .dropdown-item {
+  color: #fff; /* White text color */
+  font-weight: bold; /* Bold text */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+}
+
+.navbar .dropdown-item:hover {
+  background-color:rgb(14, 12, 12); /* Darker red on hover */
+  color:rgb(244, 16, 16); /* Slightly lighter text color */
+}
+
+/* Dropdown Toggle Button */
+.navbar .nav-link.dropdown-toggle {
+  color: #ff4d4d; /* Red text for toggle */
+  font-weight:bold;
+}
+
+.navbar .nav-link.dropdown-toggle:hover {
+  color: #d63333; /* Darker red on hover */
+}
+
+/* Optional: Adjust dropdown arrow color */
+.navbar .dropdown-toggle::after {
+  color: #ff4d4d; /* Red dropdown arrow */
+}
+
+/* Optional: Add padding or margins for better spacing */
+.navbar .dropdown-menu {
+  padding: 0.5rem 0;
+}
+
+.navbar {
+  background-color: #f8f9fa; /* Example background color */
+}
+
+.navbar-nav {
+  display: flex; /* Flexbox layout for horizontal alignment */
+  justify-content: space-between; /* Spread out the links */
+  align-items: center; /* Center items vertically */
+}
+
+.nav-item {
+  list-style: none;
+}
+
+.nav-link {
+  color: #333; /* Default text color */
+  text-decoration: none; /* Remove underline */
+  padding: 10px 15px; /* Add padding for spacing */
+  white-space: nowrap; /* Prevent text from wrapping */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.nav-link:hover {
+  color: #e63946; /* Change color on hover */
+  text-decoration: underline; /* Optional: add underline on hover */
+  transform: translateY(-2px); /* Subtle effect to prevent movement */
+}
+
+.nav-item:hover .nav-link {
+  transform: none; /* Prevent movement during hover */
+}
+
+.helpline-text {
+  font-weight: bold;
+  color:white; /* Highlight the helpline */
+}
+
+.dropdown-item {
+  color: #333; /* Dropdown item text color */
+}
+
+.dropdown-item:hover {
+  background-color: #f8f9fa; /* Highlight background on hover */
+  color: #e63946; /* Red color on hover */
+}
+

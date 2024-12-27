@@ -40,22 +40,22 @@ function BrowseByDomain() {
     'Executive MBA': [
       'https://wallpapercave.com/wp/wp7617927.jpg',
       'https://wallpapercave.com/wp/wp7617928.jpg',
-      'https://wallpapercave.com/wp/wp7617929.jpg',
+      // 'https://wallpapercave.com/wp/wp7617929.jpg',
     ],
     'MCA': [
       'https://wallpapercave.com/wp/wp7617930.jpg',
       'https://wallpapercave.com/wp/wp7617931.jpg',
-      'https://wallpapercave.com/wp/wp7617932.jpg',
+      // 'https://wallpapercave.com/wp/wp7617932.jpg',
     ],
     'Project Management': [
       'https://wallpapercave.com/wp/wp7617933.jpg',
       'https://wallpapercave.com/wp/wp7617934.jpg',
-      'https://wallpapercave.com/wp/wp7617935.jpg',
+      // 'https://wallpapercave.com/wp/wp7617935.jpg',
     ],
     'Data Science': [
       'https://wallpapercave.com/wp/wp7617936.jpg',
       'https://wallpapercave.com/wp/wp7617937.jpg',
-      'https://wallpapercave.com/wp/wp7617938.jpg',
+      // 'https://wallpapercave.com/wp/wp7617938.jpg',
     ],
   };
 

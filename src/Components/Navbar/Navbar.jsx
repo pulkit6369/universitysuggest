@@ -43,8 +43,38 @@ function Navbar() {
             </li>
             <li className="nav-item helpline">
               <NavLink className="nav-link" to="/">
-                <span className='helpline-text'>HelpLine: 9785-800-008</span>
+                <span className="helpline-text">HelpLine: 9785-800-008</span>
               </NavLink>
+            </li>
+            {/* Dropdown for Dashboard */}
+            <li className="nav-item dropdown">
+              <NavLink
+                className="nav-link dropdown-toggle"
+                to="#"
+                id="dashboardDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dashboard
+              </NavLink>
+              <ul className="dropdown-menu" aria-labelledby="dashboardDropdown">
+                <li>
+                  <NavLink className="dropdown-item" to="/Adminform">
+                    Admin
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink className="dropdown-item" to="/dashboard">
+                    Update User
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink className="dropdown-item" to="/forgetpassword">
+                    Forgot Password
+                  </NavLink>
+                </li>
+              </ul>
             </li>
           </ul>
         </div>

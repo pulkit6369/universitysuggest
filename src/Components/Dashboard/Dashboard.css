@@ -1,0 +1,55 @@
+.dashboard {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #e63946; /* Red border */
+  border-radius: 8px;
+  background-color: #fff4f4; /* Light red background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-title {
+  text-align: center;
+  color: #e63946; /* Red title color */
+  margin-bottom: 20px;
+}
+
+.dashboard-form .form-group {
+  margin-bottom: 15px;
+}
+
+.dashboard-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #e63946; /* Red label color */
+}
+
+.dashboard-form input,
+.dashboard-form select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #e63946; /* Red input border */
+  border-radius: 4px;
+}
+
+.dashboard-form input:focus,
+.dashboard-form select:focus {
+  box-shadow: 0 0 5px #e63946;
+  border-color: #e63946;
+}
+
+.submit-btn {
+  background-color: #e63946;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+.submit-btn:hover {
+  background-color: #c02639;
+}
