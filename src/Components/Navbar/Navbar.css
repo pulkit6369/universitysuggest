@@ -282,4 +282,13 @@
   background-color: #f8f9fa; /* Highlight background on hover */
   color: #e63946; /* Red color on hover */
 }
+.nav-link:hover {
+  color: #e63946; /* Change text color on hover */
+  text-decoration: none; /* Prevent underline on hover */
+  transform: translateY(-2px); /* Subtle hover movement effect */
+}
+
+.nav-item:hover .nav-link {
+  transform: none; /* Prevent additional movement during hover */
+}
 
